@@ -1,0 +1,19 @@
+link : http://knexjs.org/#Installation-migrations
+npx executa um pacote
+inicializa o banco // aquivo knexfile.js
+npx knex init 
+
+não esqueca de criar as migrations a mesma coisa que a do laravel que gera o banco
+npx knex migrate:make nome_da_tabela
+
+para rodar a tabela o comando é 
+npx knex migrate:latest
+
+para voltar
+npx knex migrate:rollback
+
+para saber todas as migration que ja foram executadas
+npx knex migrate:status
+
+para saber todos os comandos 
+npx knex
