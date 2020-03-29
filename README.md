@@ -1,2 +1,2 @@
 # Semana OmniStack 11.0
-curso feito por diego3g
+curso feito por @diego3g
