@@ -11,7 +11,7 @@ module.exports = {
     migrations:{
       directory: './src/database/migrations'
     },
-    // useNullAullAsDefault: true
+    useNullAsDefault: true
   },
 
   staging: {
