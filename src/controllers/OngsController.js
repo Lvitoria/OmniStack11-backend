@@ -16,7 +16,7 @@ module.exports = {
                 uf
             })
     
-            return res.json({ statusCode: 201, result: "criado com sucesso", "seu id": id })
+            return res.json({ statusCode: 201, result: "criado com sucesso", id })
     
         } catch (error) {
             console.log("error-->", error)
@@ -25,7 +25,6 @@ module.exports = {
     },
     async index(req, res){
         try {
-            console.log(cadastrar)
             const ongs = await connection('ongs').select('*')
             return res.json({ statusCode: 200, mensagem: ongs, count: ongs.length })
     
